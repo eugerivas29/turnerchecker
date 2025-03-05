@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turner Checker - Verificador de Tarjetas</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' https://js.stripe.com;">
+    <script src="https://js.stripe.com/v3/"></script>
+
+
+
+
+    
+    <script src="server.js"></script>
+
+    
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Turner Checker</h1>
+            <p>Verifica tus tarjetas de crédito</p>
+        </header>
+
+        <section class="form-section">
+            <label for="credit-cards">Ingresa las tarjetas de crédito (separadas por coma):</label>
+            <textarea id="credit-cards" rows="5" placeholder="Ej: 1234 5678 9101 1121, 2233 4455 6677 8899"></textarea>
+            <button id="check-btn">Verificar Tarjetas</button>
+            <div id="result"></div>
+        </section>
+
+        <footer>
+            <p>&copy; 2025 Turner Checker. Todos los derechos reservados.</p>
+        </footer>
+    </div>
+    <div id="card-element"></div> <!-- Aquí se montará el campo de la tarjeta -->
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' https://js.stripe.com https://m.stripe.network;">
+
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://js.stripe.com https://m.stripe.network;">
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' https://m.stripe.network 'sha256-5DA+a07wxWmEka9IdoWjSPVHb17Cp5284/lJzfbl8KA=' 'sha256-/5Guo2nzv5n/w6ukZpOBZOtTJBJPSkJ6mhHpnBgm3Ls=';">
+
+
+    <script src="app.js"></script>
+
+
+</body>
+</html>

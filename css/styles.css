@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+header h1 {
+  color: #007BFF;
+}
+header p {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.form-section {
+  margin-bottom: 20px;
+}
+.form-section label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+.form-section textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: vertical;
+  font-size: 1rem;
+  background-color: #fff;
+}
+.form-section button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.1rem;
+  margin-top: 10px;
+}
+.form-section button:hover {
+  background-color: rgb(0, 98.4, 204);
+}
+.form-section #result {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 0.9rem;
+  color: #777;
+}
+
+/*# sourceMappingURL=styles.css.map */
